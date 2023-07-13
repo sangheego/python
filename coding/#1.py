@@ -1,14 +1,21 @@
-def solution(babbling):
+'''def solution(n):
     answer=0
-    ongal=['aya','ye','woo','ma']
-    count=0
-    for i in babbling:
-        for j in ongal:
-            if j in i:
-                i=i.replace(j," ")
-                print(i)
-        i=i.replace(" ","")
-        if len(i)==0:
-            count+=1
-        print(i)
-    return count
+    if (n**0.5).is_integer():
+        return 1
+    else:
+        return 2
+    return answer
+
+n=int(input("숫자 입력: "))
+def solution(n):
+    answer=0
+    for x in range(1,1001):
+        if n==x**2 and n%1==0:
+            print("1")
+        else:
+            print("2")'''
+
+def solution(message):
+    len(message)<=50
+    for i in message:
+        len(i)=2
