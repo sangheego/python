@@ -13,9 +13,22 @@ def solution(n):
         if n==x**2 and n%1==0:
             print("1")
         else:
-            print("2")'''
+            print("2")
 
 def solution(message):
     len(message)<=50
     for i in message:
         len(i)=2
+
+def solution(n, t):
+    answer = 0
+    while 1<=n<=10 and 1<=t<=15:
+        answer= n*2**t
+        return answer
+print(solution(3,3))'''
+
+def solution(str1, str2):
+    if str2 in str1:
+        return 1
+    else:
+        return 2
